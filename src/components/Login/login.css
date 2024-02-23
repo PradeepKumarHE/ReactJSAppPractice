@@ -1,0 +1,63 @@
+.logWrapper{
+    width: 50%;
+    background-color: #ccc;
+    padding: 1rem;
+    .title{
+        color: black;
+        font-weight: 600;
+        font-size: 1.2rem;
+        display: grid;
+        justify-content: center;
+        text-transform: uppercase;
+    }
+    .inputFields{
+    padding-top: 1rem;
+       display: grid;
+       grid-gap: 1rem;
+       .inputField{
+        display: grid;
+        height: 2rem;
+        input{
+            border: 1px solid #d7d7d7 !important;
+        }
+       }
+    }
+    .actionBtn{
+        padding-top: 0.3rem;
+        width: 100%;
+    }
+    .btn{
+        background-color: #575757;
+        padding: 0.5rem;
+        cursor: pointer;
+        width: 100%;
+        color: white;
+        border: 1px solid #d7d7d7;
+        font-size: 1rem;
+        border-radius: 2px;
+        &:hover{
+            box-shadow: 3px 3px 3px 3px #0b0707;
+        }
+    }
+    .text{
+        color: white;
+        display: flex;
+        justify-content: flex-end;
+        grid-gap: 0.5rem;
+        padding-top: 1rem;
+        .link{
+            color: blue;
+            cursor: pointer;
+        }
+    }
+    .reset{
+        color: white;
+        display: flex;
+        justify-content: flex-end;
+        grid-gap: 0.5rem;
+        .link{
+            color: blue;
+            cursor: pointer;
+        }
+    }
+}
