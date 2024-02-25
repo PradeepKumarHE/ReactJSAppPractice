@@ -4,7 +4,7 @@ import './login.css'
 const Login = ({setSwitchtoComp}) => {
   return (
     <div className='logWrapper'>
-        <div className='title'>Login</div>
+        <div className='title'>Sign in to your account</div>
         <div className='inputFields'>
            <div className='inputField'>
            <input placeholder='UserName'  />
@@ -13,7 +13,7 @@ const Login = ({setSwitchtoComp}) => {
             <input placeholder='Password' />
             </div>
             <div className='reset'>
-           <span className='link' onClick={()=>setSwitchtoComp("reset")}>Reset</span> Password?
+             <span className='link' onClick={()=>setSwitchtoComp("reset")}>Reset</span> Password?
         </div>
         </div>
         <div className='actionBtn'>

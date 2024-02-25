@@ -2,7 +2,7 @@ import React from 'react'
 import './reset.css'
 const ResetPassword = ({setSwitchtoComp}) => {
   return (
-    <div className='logWrapper'>
+    <div className='resetWrapper'>
         <div className='title'>Reset Password</div>
         <div className='inputFields'>
            <div className='inputField'>
@@ -16,7 +16,7 @@ const ResetPassword = ({setSwitchtoComp}) => {
             <button className='btn'>Reset</button>
         </div>
         <div className='text'>
-          Go To <span className='link' onClick={()=>setSwitchtoComp("login")}>Login</span>
+          Back To <span className='link' onClick={()=>setSwitchtoComp("login")}>Login</span>??
         </div>
     </div>
   )

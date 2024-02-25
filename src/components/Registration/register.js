@@ -1,21 +1,21 @@
-import React from "react";
-import "./register.css";
-const Register = ({ setSwitchtoComp }) => {
+import React from 'react'
+import './register.css'
+const Register = ({setSwitchtoComp}) => {
   return (
-    <div className="regWrapper">
-      <div className="title">Register</div>
-      <div className="inputFields">
-        <div className="inputField">
-          <input placeholder="FirstName" />
-        </div>
-        <div className="inputField">
-          <input placeholder="LastName" />
-        </div>
-        <div className="inputField">
-          <input placeholder="Email" />
-        </div>
-
-        <div className="inputField">
+    <div className='regWrapper'>
+        <div className='title'>Sign up to Our App</div>
+        <div className='inputFields'>
+           <div className='inputField'>
+           <input placeholder='FirstName'  />
+           </div>
+            <div className='inputField'>
+            <input placeholder='LastName' />
+            </div>
+            <div className='inputField'>
+            <input placeholder='Email'  />
+            </div>
+           
+            <div className="inputField">
           <input placeholder="Country" />
         </div>
         <div className="inputField">
@@ -62,19 +62,15 @@ const Register = ({ setSwitchtoComp }) => {
         <div className="inputField">
           <input placeholder="Extension" />
         </div>
-
-      </div>
-      <div className="actionBtn">
-        <button className="btn">Register</button>
-      </div>
-      <div className="text">
-        <span className="link" onClick={() => setSwitchtoComp("login")}>
-          Login
-        </span>{" "}
-        instead??
-      </div>
+        </div>
+        <div className='actionBtn'>
+            <button className='btn'>Register</button>
+        </div>
+        <div className='text'>
+           <span className='link' onClick={()=>setSwitchtoComp("login")}>Login</span>
+        </div>
     </div>
-  );
-};
+  )
+}
 
-export default Register;
+export default Register
