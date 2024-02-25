@@ -3,7 +3,7 @@ import './register.css'
 const Register = ({setSwitchtoComp}) => {
   return (
     <div className='regWrapper'>
-        <div className='title'>Sign up to Our App</div>
+        <div className='title'>Create a new account</div>
         <div className='inputFields'>
            <div className='inputField'>
            <input placeholder='FirstName'  />
