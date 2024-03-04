@@ -13,7 +13,7 @@ const Login = ({setSwitchtoComp}) => {
             <input placeholder='  Password' />
             </div>
             <div className='reset'>
-             <span className='link' onClick={()=>setSwitchtoComp("reset")}>Forgot</span> Password?
+             <span className='link' onClick={()=>setSwitchtoComp("reset")}>Forgot Password?</span> 
         </div>
         </div>
         <div className='actionBtn'>

@@ -16,7 +16,7 @@ const Register = ({setSwitchtoComp}) => {
             </div>
            
             <div className="inputField">
-          <input placeholder="Country" />
+          <input placeholder="Country (Searchable dropdown)" />
         </div>
         <div className="inputField">
           <input placeholder="Phone number" />
@@ -26,24 +26,24 @@ const Register = ({setSwitchtoComp}) => {
           <input placeholder="Company Name" />
         </div>
         <div className="inputField">
-          <input placeholder="Company Type" />
+          <input placeholder="Company Type (Searchable dropdown)" />
         </div>
 
         <div className="inputField">
           <input placeholder="Website" />
         </div>
         <div className="inputField">
-          <input placeholder="Number of employees" />
+          <input placeholder="Number of employees (Searchable dropdown)" />
         </div>
 
         <div className="inputField">
-          <input placeholder="Country" />
+          <input placeholder="Country (Searchable dropdown)" />
         </div>
         <div className="inputField">
-          <input placeholder="State" />
+          <input placeholder="State (Searchable dropdown)" />
         </div>
         <div className="inputField">
-          <input placeholder="City" />
+          <input placeholder="City (Searchable dropdown)" />
         </div>
         <div className="inputField">
           <input placeholder="Zipcode" />
@@ -54,7 +54,7 @@ const Register = ({setSwitchtoComp}) => {
         
 
         <div className="inputField">
-          <input placeholder="Country" />
+          <input placeholder="Country (Searchable dropdown)" />
         </div>
         <div className="inputField">
           <input placeholder="Phone" />

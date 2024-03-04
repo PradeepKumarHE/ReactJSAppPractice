@@ -7,7 +7,7 @@ const UserVerification = ({ setSwitchtoComp }) => {
       <div className="title">Verify your account</div>
       <div className="inputFields">
         <div className="inputField">
-          <input placeholder="Email or Phone" />
+          <input placeholder="  Email or Phone" />
         </div>       
       </div>
       <div className="actionBtn">
