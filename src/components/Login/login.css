@@ -1,61 +1,81 @@
-.logWrapper{
-    width: 50%;
-    border:1px solid #d7d7d7;
-    border-radius: 5px;
-    box-shadow: 1px 1px 2px 2px rgb(171, 167, 167);
-    padding: 1rem;
-    .title{
-        color: rgb(111, 107, 107);
-        font-weight: 600;
-        font-size: 1.2rem;
-        display: grid;
-        justify-content: center;
-        text-transform: uppercase;
-    }
-    .inputFields{
-    padding-top: 1rem;
-       display: grid;
-       grid-gap: 1rem;
-       .inputField{
-        display: grid;
-        height: 2.5rem;
-        input{
-            border: 1px solid #d7d7d7 !important;
+
+
+.loginContainer{
+    width: 40%;
+    display: grid;
+    grid-gap: 2rem;
+    .logWrapper{
+        border:1px solid #d7d7d7;
+        border-radius: 5px;
+        box-shadow: 1px 1px 2px 2px rgb(171, 167, 167);
+        padding: 1rem;
+        .title{
+            color: rgb(111, 107, 107);
+            font-weight: 600;
+            font-size: 1.2rem;
+            display: grid;
+            justify-content: center;
+            text-transform: uppercase;
         }
-       }
-    }
-    .actionBtn{
-        padding-top: 0.3rem;
-        width: 100%;
-    }
-    .btn{
-        background-color: rgb(55, 181, 55);
-        padding: 0.5rem;
-        cursor: pointer;
-        width: 100%;
-        color: white;
-        border: 1px solid #d7d7d7;
-        font-size: 1rem;
-        border-radius: 2px;
-        &:hover{
-            box-shadow: 2px 2px 1px 1px #0b0707;
+        .inputFields{
+        padding-top: 1rem;
+           display: grid;
+           grid-gap: 1rem;
+           .inputField{
+            display: grid;
+            height: 2.5rem;
+            input{
+                border: 1px solid #d7d7d7 !important;
+            }
+           }
         }
+        .actionBtn{
+            padding-top: 0.3rem;
+            width: 100%;
+        }
+        .btn{
+            background-color: rgb(55, 181, 55);
+            padding: 0.5rem;
+            cursor: pointer;
+            width: 100%;
+            color: white;
+            border: 1px solid #d7d7d7;
+            font-size: 1rem;
+            border-radius: 2px;
+            &:hover{
+                box-shadow: 2px 2px 1px 1px #0b0707;
+            }
+        }
+        .forgotContainer{
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem 0;
+            .check{
+                cursor: pointer !important;
+            }
+            .forgotlink{
+                display: flex;
+                justify-content: flex-end;
+                grid-gap: 0.5rem;
+                .link{
+                    color: blue;
+                    cursor: pointer;
+                }
+            }
+        }
+    
+        
     }
     .text{
+        border:1px solid #d7d7d7;
+        border-radius: 5px;
+        box-shadow: 1px 1px 2px 2px rgb(171, 167, 167);
+        padding: 1rem;
         display: flex;
-        justify-content: flex-end;
-        grid-gap: 0.5rem;
-        padding-top: 1rem;
+        justify-content:center ;
+        line-height: 2px;
         .link{
-            color: blue;
-            cursor: pointer;
-        }
-    }
-    .reset{
-        display: flex;
-        justify-content: flex-end;
-        grid-gap: 0.5rem;
-        .link{
+            padding-left: 0.5rem;
             color: blue;
             cursor: pointer;
         }

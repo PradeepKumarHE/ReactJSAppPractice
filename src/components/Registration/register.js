@@ -67,6 +67,7 @@ const Register = ({setSwitchtoComp}) => {
             <button className='btn'>Register</button>
         </div>
         <div className='text'>
+          don't have account?
            <span className='link' onClick={()=>setSwitchtoComp("login")}>Login</span>
         </div>
     </div>

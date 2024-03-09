@@ -6,7 +6,7 @@ import ResetPassword from "./components/ResetPassword/resetpaswd";
 import UserVerification from "./components/UserVerification/userverification";
 
 function App() {
-  const [dispalyComp,setSwitchtoComp]=useState("register");
+  const [dispalyComp,setSwitchtoComp]=useState("login");
 
   
   return (
@@ -16,7 +16,8 @@ function App() {
         <Register {...{setSwitchtoComp}} />
         :
         dispalyComp==="login"?<Login {...{setSwitchtoComp}}/>:
-        <UserVerification {...{setSwitchtoComp}}/>
+        dispalyComp==="forgot"?<UserVerification {...{setSwitchtoComp}}/>:
+        <ResetPassword {...{setSwitchtoComp}} />
       }
     </div>
   );
